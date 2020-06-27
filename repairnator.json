@@ -1,32 +1,148 @@
 {
-  "totalNumberSkippingTests": 0,
-  "bugType": "only_fail",
-  "totalNumberErroringTests": 0,
-  "repo": "dropwizard/dropwizard",
-  "bugCommit": "https://github.com/dropwizard/dropwizard/compare/84db83e0122f...8754909d0030",
-  "failingModule": "/root/workspace/dropwizard/dropwizard/279515036/dropwizard-logging",
-  "hostname": "spirals-librepair",
-  "totalNumberFailingTests": 1,
-  "error-types": [
-    "org.junit.ComparisonFailure"
-  ],
-  "totalNumberRunningTests": 279,
-  "failing-test-cases": [
-    {
-      "className": "io.dropwizard.logging.DefaultLoggingFactoryPrintErrorMessagesTest",
-      "failingMethods": [
-        "io.dropwizard.logging.DefaultLoggingFactoryPrintErrorMessagesTest#testWhenFileAppenderDoesNotHaveWritePermissionToFolder_PrintsErrorMessageToConsole"
-      ],
-      "erroringMethods": [],
+  "builds": {},
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "Jun 27, 2020 6:10:22 PM",
+    "reproductionDateEnd": "Jun 27, 2020 6:25:54 PM",
+    "machineInfo": {
+      "numberCPU": 1,
+      "freeMemory": 46994688,
+      "totalMemory": 148746240
+    },
+    "totalDuration": 928,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "building": {
+        "nbSteps": 3,
+        "totalDuration": 1,
+        "stepNames": [
+          "ComputeSourceDir",
+          "ComputeTestDir",
+          "CheckoutPatchedBuild"
+        ],
+        "stepDurations": [
+          0,
+          1,
+          0
+        ]
+      },
+      "testing": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 191,
+        "stepNames": [
+          "AstorJKali"
+        ],
+        "stepDurations": [
+          191
+        ]
+      }
+    },
+    "projectRootPomPath": "/proj/nobackup/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-dropwizard-dropwizard-279515036-20170925-155015_bugonly-firstCommit/pom.xml"
+  },
+  "repository": {
+    "githubId": 0,
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 0,
+      "numberDeleted": 0
+    },
+    "lines": {
+      "numberAdded": 0,
+      "numberDeleted": 0
+    }
+  },
+  "commits": {},
+  "tests": {
+    "failingModule": "/pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-dropwizard-dropwizard-279515036-20170925-155015_bugonly-firstCommit/dropwizard-http2",
+    "overallMetrics": {
+      "numberRunning": 1398,
+      "numberPassing": 1394,
+      "numberFailing": 0,
+      "numberErroring": 4,
+      "numberSkipping": 5,
       "failures": [
         {
-          "failureName": "org.junit.ComparisonFailure",
-          "failureDetail": "expected:\u003c[fals]e\u003e but was:\u003c[tru]e\u003e",
-          "isError": false
+          "failureName": "java.lang.IllegalStateException",
+          "isError": true,
+          "occurrences": 4
         }
-      ],
-      "nbFailures": 1,
-      "nbErrors": 0
-    }
-  ]
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "io.dropwizard.http2.Http2IntegrationTest",
+        "numberRunning": 3,
+        "numberPassing": 0,
+        "numberFailing": 0,
+        "numberErroring": 3,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "io.dropwizard.http2.Http2WithCustomCipherTest",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "io.dropwizard.http2.Http2IntegrationTest",
+        "testMethod": "testHttp2",
+        "failureName": "java.lang.IllegalStateException",
+        "detail": "org.eclipse.jetty.alpn.ALPN must be on JVM boot classpath",
+        "isError": true
+      },
+      {
+        "testClass": "io.dropwizard.http2.Http2IntegrationTest",
+        "testMethod": "testHttp2ManyRequests",
+        "failureName": "java.lang.IllegalStateException",
+        "detail": "org.eclipse.jetty.alpn.ALPN must be on JVM boot classpath",
+        "isError": true
+      },
+      {
+        "testClass": "io.dropwizard.http2.Http2IntegrationTest",
+        "testMethod": "testHttp11",
+        "failureName": "java.lang.IllegalStateException",
+        "detail": "org.eclipse.jetty.alpn.ALPN must be on JVM boot classpath",
+        "isError": true
+      },
+      {
+        "testClass": "io.dropwizard.http2.Http2WithCustomCipherTest",
+        "testMethod": "testHttp2WithCustomCipher",
+        "failureName": "java.lang.IllegalStateException",
+        "detail": "org.eclipse.jetty.alpn.ALPN must be on JVM boot classpath",
+        "isError": true
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 34,
+    "numberPlugins": 0,
+    "numberSourceFiles": 412,
+    "numberTestFiles": 372,
+    "numberLibrariesFailingModule": 105,
+    "numberLines": 0
+  }
 }
