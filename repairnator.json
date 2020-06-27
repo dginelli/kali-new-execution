@@ -1,0 +1,126 @@
+{
+  "builds": {},
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "Jun 27, 2020 6:10:21 PM",
+    "reproductionDateEnd": "Jun 27, 2020 6:50:05 PM",
+    "machineInfo": {
+      "numberCPU": 1,
+      "freeMemory": 66437880,
+      "totalMemory": 201367552
+    },
+    "totalDuration": 2379,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "building": {
+        "nbSteps": 3,
+        "totalDuration": 2,
+        "stepNames": [
+          "ComputeSourceDir",
+          "ComputeTestDir",
+          "CheckoutPatchedBuild"
+        ],
+        "stepDurations": [
+          0,
+          2,
+          0
+        ]
+      },
+      "testing": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 657,
+        "stepNames": [
+          "AstorJKali"
+        ],
+        "stepDurations": [
+          657
+        ]
+      }
+    },
+    "projectRootPomPath": "/proj/nobackup/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-eclipse-ditto-407599059-20180724-213504-firstCommit/pom.xml"
+  },
+  "repository": {
+    "githubId": 0,
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 0,
+      "numberDeleted": 0
+    },
+    "lines": {
+      "numberAdded": 0,
+      "numberDeleted": 0
+    }
+  },
+  "commits": {},
+  "tests": {
+    "failingModule": "/pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-eclipse-ditto-407599059-20180724-213504-firstCommit/services/connectivity/messaging",
+    "overallMetrics": {
+      "numberRunning": 4214,
+      "numberPassing": 4212,
+      "numberFailing": 2,
+      "numberErroring": 0,
+      "numberSkipping": 6,
+      "failures": [
+        {
+          "failureName": "java.lang.AssertionError",
+          "isError": false,
+          "occurrences": 2
+        }
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "org.eclipse.ditto.services.connectivity.messaging.rabbitmq.RabbitMQClientActorTest",
+        "numberRunning": 7,
+        "numberPassing": 5,
+        "numberFailing": 2,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "org.eclipse.ditto.services.connectivity.messaging.rabbitmq.RabbitMQClientActorTest",
+        "testMethod": "testCloseConnectionFails",
+        "failureName": "java.lang.AssertionError",
+        "detail": "assertion failed: expected Success(DISCONNECTED), found Success(CONNECTED)",
+        "isError": false
+      },
+      {
+        "testClass": "org.eclipse.ditto.services.connectivity.messaging.rabbitmq.RabbitMQClientActorTest",
+        "testMethod": "testConnectionHandling",
+        "failureName": "java.lang.AssertionError",
+        "detail": "assertion failed: expected Success(DISCONNECTED), found Success(CONNECTED)",
+        "isError": false
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 89,
+    "numberPlugins": 0,
+    "numberSourceFiles": 1558,
+    "numberTestFiles": 940,
+    "numberLibrariesFailingModule": 155,
+    "numberLines": 0
+  }
+}
