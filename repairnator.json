@@ -1,31 +1,288 @@
 {
-  "totalNumberSkippingTests": 8,
-  "bugType": "only_fail",
-  "totalNumberErroringTests": 1,
-  "repo": "biojava/biojava",
-  "bugCommit": "https://github.com/biojava/biojava/compare/ae19c8ca2b69^...d3fcbc1e66d0",
-  "failingModule": "/root/workspace/biojava/biojava/250779242/biojava-structure",
-  "hostname": "spirals-librepair",
-  "totalNumberFailingTests": 0,
-  "error-types": [
-    "java.lang.NullPointerException"
-  ],
-  "totalNumberRunningTests": 679,
-  "failing-test-cases": [
-    {
-      "className": "org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader",
-      "failingMethods": [],
-      "erroringMethods": [
-        "org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader#compareMmcif"
-      ],
+  "builds": {},
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "Jun 28, 2020 12:10:46 AM",
+    "reproductionDateEnd": "Jun 28, 2020 2:09:13 AM",
+    "machineInfo": {
+      "numberCPU": 1,
+      "freeMemory": 72725280,
+      "totalMemory": 1131216896
+    },
+    "totalDuration": 7103,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "building": {
+        "nbSteps": 3,
+        "totalDuration": 0,
+        "stepNames": [
+          "ComputeSourceDir",
+          "ComputeTestDir",
+          "CheckoutPatchedBuild"
+        ],
+        "stepDurations": [
+          0,
+          0,
+          0
+        ]
+      },
+      "testing": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 6000,
+        "stepNames": [
+          "AstorJKali"
+        ],
+        "stepDurations": [
+          6000
+        ]
+      }
+    },
+    "projectRootPomPath": "/proj/nobackup/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-biojava-biojava-250779242-20170706-162512_bugonly-firstCommit/pom.xml"
+  },
+  "repository": {
+    "githubId": 0,
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 0,
+      "numberDeleted": 0
+    },
+    "lines": {
+      "numberAdded": 0,
+      "numberDeleted": 0
+    }
+  },
+  "commits": {},
+  "tests": {
+    "failingModule": "/pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-biojava-biojava-250779242-20170706-162512_bugonly-firstCommit/biojava-structure",
+    "overallMetrics": {
+      "numberRunning": 671,
+      "numberPassing": 657,
+      "numberFailing": 7,
+      "numberErroring": 7,
+      "numberSkipping": 8,
       "failures": [
         {
+          "failureName": "org.junit.internal.ArrayComparisonFailure",
+          "isError": false,
+          "occurrences": 1
+        },
+        {
+          "failureName": "java.lang.AssertionError",
+          "isError": false,
+          "occurrences": 5
+        },
+        {
           "failureName": "java.lang.NullPointerException",
-          "isError": true
+          "isError": true,
+          "occurrences": 7
+        },
+        {
+          "failureName": "org.junit.ComparisonFailure",
+          "isError": false,
+          "occurrences": 1
         }
-      ],
-      "nbFailures": 0,
-      "nbErrors": 1
-    }
-  ]
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest",
+        "numberRunning": 5,
+        "numberPassing": 1,
+        "numberFailing": 0,
+        "numberErroring": 4,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader",
+        "numberRunning": 2,
+        "numberPassing": 1,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestDifficultMmCIFFiles",
+        "numberRunning": 7,
+        "numberPassing": 6,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestTitleParsing",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 1,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 1,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.TestBond",
+        "numberRunning": 15,
+        "numberPassing": 14,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.align.util.AtomCacheTest",
+        "numberRunning": 8,
+        "numberPassing": 7,
+        "numberFailing": 1,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.TestExperimentalTechniques",
+        "numberRunning": 4,
+        "numberPassing": 3,
+        "numberFailing": 1,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestQuaternaryStructureProviders",
+        "numberRunning": 7,
+        "numberPassing": 5,
+        "numberFailing": 2,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.mmcif.TestParseInternalChainId",
+        "numberRunning": 1,
+        "numberPassing": 0,
+        "numberFailing": 1,
+        "numberErroring": 0,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "org.biojava.nbio.structure.TestExperimentalTechniques",
+        "testMethod": "test4LNC",
+        "failureName": "java.lang.AssertionError",
+        "detail": "expected:\u003c2\u003e but was:\u003c1\u003e",
+        "isError": false
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest",
+        "testMethod": "testFromHeteroAtomIdsUrl",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader",
+        "testMethod": "compareMmcif",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest",
+        "testMethod": "testFromPdbIdUrl",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.TestBond",
+        "testMethod": "testStructConnModels",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.align.util.AtomCacheTest",
+        "testMethod": "testGetStructureForChainlessDomains",
+        "failureName": "java.lang.AssertionError",
+        "isError": false
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestTitleParsing",
+        "testMethod": "test2W6E",
+        "failureName": "org.junit.ComparisonFailure",
+        "detail": "expected:\u003c...trolled dehydration:[ ]hydration state 1.\u003e but was:\u003c...trolled dehydration:[]hydration state 1.\u003e",
+        "isError": false
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestDifficultMmCIFFiles",
+        "testMethod": "test2BI6",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.mmcif.TestParseInternalChainId",
+        "testMethod": "test2I13",
+        "failureName": "java.lang.AssertionError",
+        "isError": false
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest",
+        "testMethod": "testFromHeteroAtomIdUrl",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType",
+        "testMethod": "testEntityId",
+        "failureName": "org.junit.internal.ArrayComparisonFailure",
+        "detail": "arrays first differed at element [1]; expected:\u003c4-F[luorobenzamidoxime]\u003e but was:\u003c4-F[LUOROBENZAMIDOXIME]\u003e",
+        "isError": false
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestQuaternaryStructureProviders",
+        "testMethod": "testGetNrBioAssemblies5LDH",
+        "failureName": "java.lang.AssertionError",
+        "detail": "There should be only 2 bioassemblies for 5LDH, see github issue #230 expected:\u003c2\u003e but was:\u003c4\u003e",
+        "isError": false
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest",
+        "testMethod": "testFromPdbIdsUrl",
+        "failureName": "java.lang.NullPointerException",
+        "isError": true
+      },
+      {
+        "testClass": "org.biojava.nbio.structure.io.TestQuaternaryStructureProviders",
+        "testMethod": "test5LDH",
+        "failureName": "java.lang.AssertionError",
+        "detail": "Bioassembly 3 for PDB id 5LDH should fail with a StructureException!",
+        "isError": false
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 13,
+    "numberPlugins": 0,
+    "numberSourceFiles": 1086,
+    "numberTestFiles": 241,
+    "numberLibrariesFailingModule": 21,
+    "numberLines": 0
+  }
 }
