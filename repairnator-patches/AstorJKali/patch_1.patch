@@ -1,0 +1,12 @@
+--- /src/main/java/com/ctrip/framework/apollo/core/utils/NetUtil.java
++++ /src/main/java/com/ctrip/framework/apollo/core/utils/NetUtil.java
+@@ -23,7 +23,7 @@
+ 		if (0 == status) {
+ 			status = com.ctrip.framework.apollo.core.utils.NetUtil.getUrlStatus(address);
+ 		}
+-		if (200 == status) {
++		if (true) {
+ 			return true;
+ 		}
+ 		return false;
+
