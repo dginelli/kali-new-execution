@@ -1,0 +1,576 @@
+Jun 28, 2020 12:13:06 AM org.biojava.nbio.core.search.io.blast.BlastTabularParser createObjects
+INFO: Query for hits
+Jun 28, 2020 12:13:06 AM org.biojava.nbio.core.search.io.blast.BlastTabularParser createObjects
+INFO: 2 hits approximately in all results
+Jun 28, 2020 12:13:06 AM org.biojava.nbio.core.search.io.blast.BlastTabularParser createObjects
+INFO: Query for hits
+Jun 28, 2020 12:13:06 AM org.biojava.nbio.core.search.io.blast.BlastTabularParser createObjects
+INFO: 117713 hits approximately in all results
+Jun 28, 2020 12:13:18 AM org.biojava.nbio.core.search.io.blast.BlastTabularParser createObjects
+INFO: Query for hits
+Jun 28, 2020 12:13:18 AM org.biojava.nbio.core.search.io.blast.BlastTabularParser createObjects
+INFO: 135 hits approximately in all results
+00:14:04 [main] ERROR org.biojava.nbio.core.sequence.ProteinSequence - Caught IOException when getting DNA sequence for id NC_000932.1. Error: Server returned HTTP response code: 429 for URL: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=NC_000932.1&rettype=fasta&retmode=text
+00:14:50 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:14:58 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:10 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:11 [main] WARN  org.biojava.nbio.structure.io.mmcif.ChemCompGroupFactory - Problem with chemical component: PRR  Did not find one letter code! Setting it to 'X'
+00:15:12 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:16 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:25 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:28 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:30 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 273(LYS) to chain A but a residue with same residue number is already present: 273(LLP). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:15:36 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:38 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,B in same Compound, although they have misaligned residue numbers
+00:15:38 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,C in same Compound, although they have misaligned residue numbers
+00:15:38 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,D in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,E in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,F in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,B in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,C in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,D in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,E in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,F in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,B in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,C in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,D in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,E in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,F in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,B in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,C in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,D in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,E in same Compound, although they have misaligned residue numbers
+00:15:39 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,F in same Compound, although they have misaligned residue numbers
+00:15:42 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:15:52 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_src_id in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:1)
+00:15:52 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_alt_source_flag in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:sample)
+00:15:53 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifConsumer - More than 1 resolution value present, will use last one 2.00 and discard previous 1.85 
+00:15:53 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifConsumer - More than 1 Rfree value present, will use last one 0.245 and discard previous 0.20 
+00:15:53 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifConsumer - More than 1 R work value present, will use last one 0.217 and discard previous 0.19 
+00:15:55 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_src_id in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:1)
+00:15:55 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_alt_source_flag in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:sample)
+00:15:55 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_beg_seq_num in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:1)
+00:15:55 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_end_seq_num in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:17)
+00:16:07 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:12 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:17 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Multiple possible chains match '_'. Using chain A
+00:16:20 [main] WARN  org.biojava.nbio.structure.io.LocalPDBDirectory - Replacing file /tmp/data/structures/divided/mmCIF/hh/1hh0.cif.gz with latest remediated (remediation of 2011/07/12) file from PDB.
+00:16:20 [main] WARN  org.biojava.nbio.structure.io.LocalPDBDirectory - File /tmp/data/structures/divided/mmCIF/hh/1hh0.cif.gz is outdated, will download new one from PDB (updated on Sat Apr 22 04:50:38 CEST 2017)
+00:16:26 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code hopefully_this_doesnt_exist_nalkjas3
+00:16:26 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code x
+00:16:26 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code XXX:2ehz
+00:16:27 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code x
+00:16:27 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code 4HHBAa
+00:16:27 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code 2ehz:1
+00:16:28 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:34 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:36 [main] WARN  org.biojava.nbio.structure.align.util.AFPAlignmentDisplay - Can't calc %ID for an empty alignment! 
+00:16:36 [main] WARN  org.biojava.nbio.structure.align.util.AFPAlignmentDisplay - Can't calc %ID for an empty alignment! 
+00:16:39 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:45 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:49 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code name1
+00:16:49 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code name2
+00:16:51 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:56 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:16:58 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:17:02 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 22(PRO) to chain 1 but a residue with same residue number is already present: 22(SER). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:02 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 25(LEU) to chain 1 but a residue with same residue number is already present: 25(ILE). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:02 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 22(PRO) to chain 1 but a residue with same residue number is already present: 22(SER). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:02 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 25(LEU) to chain 1 but a residue with same residue number is already present: 25(ILE). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:03 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 267(K1R) to chain 1 but a residue with same residue number is already present: 267(KOR). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:03 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 267(K1R) to chain 1 but a residue with same residue number is already present: 267(KOR). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:04 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 22(PRO) to chain A but a residue with same residue number is already present: 22(SER). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:04 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 25(LEU) to chain A but a residue with same residue number is already present: 25(ILE). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:06 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 273(LYS) to chain 1 but a residue with same residue number is already present: 273(LLP). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:06 [main] WARN  org.biojava.nbio.structure.ChainImpl - Adding residue 273(LYS) to chain 1 but a residue with same residue number is already present: 273(LLP). Will add only the aminoacid residue (if any) to the lookup, lookups for that residue number won't work properly.
+00:17:08 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:17:10 [main] WARN  org.biojava.nbio.structure.AtomPositionMap - Unable to find Residue -1, so substituting 1.
+00:17:10 [main] WARN  org.biojava.nbio.structure.AtomPositionMap - Unable to find Residue 70, so substituting 68.
+00:17:10 [main] WARN  org.biojava.nbio.structure.AtomPositionMap - Unable to find Residue -4, so substituting 1.
+00:17:10 [main] ERROR org.biojava.nbio.structure.AtomPositionMap - Unable to find Residue -1 in AtomPositionMap, and no plausible substitute.
+00:17:10 [main] ERROR org.biojava.nbio.structure.AtomPositionMap - Unable to find Residue -1 in AtomPositionMap, and no plausible substitute.
+00:17:10 [main] ERROR org.biojava.nbio.structure.AtomPositionMap - Unable to find Residue 70 in AtomPositionMap, and no plausible substitute.
+00:17:12 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:17:18 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:17:36 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:17:50 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+[Fatal Error] :1:50: White spaces are required between publicId and systemId.
+Jun 28, 2020 12:17:57 AM org.biojava.nbio.structure.rcsb.RCSBLigandsFactory getFromHeteroAtomIds
+WARNING: Couldn't parse XML
+java.io.IOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; White spaces are required between publicId and systemId.
+	at org.biojava.nbio.structure.rcsb.ReadUtils.getNodes(ReadUtils.java:86)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactory.getFromHeteroAtomIds(RCSBLigandsFactory.java:93)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactory.getFromHeteroAtomIds(RCSBLigandsFactory.java:159)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromHeteroAtomIdsUrl(RCSBLigandsFactoryTest.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; White spaces are required between publicId and systemId.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.biojava.nbio.structure.rcsb.ReadUtils.getNodes(ReadUtils.java:83)
+	... 27 more
+
+[Fatal Error] :1:50: White spaces are required between publicId and systemId.
+Jun 28, 2020 12:17:57 AM org.biojava.nbio.structure.rcsb.RCSBLigandsFactory getFromPdbIds
+WARNING: Couldn't parse XML
+java.io.IOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; White spaces are required between publicId and systemId.
+	at org.biojava.nbio.structure.rcsb.ReadUtils.getNodes(ReadUtils.java:86)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactory.getFromPdbIds(RCSBLigandsFactory.java:234)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactory.getFromPdbIds(RCSBLigandsFactory.java:338)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromPdbIdsUrl(RCSBLigandsFactoryTest.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; White spaces are required between publicId and systemId.
+	at com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(DOMParser.java:257)
+	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
+	at javax.xml.parsers.DocumentBuilder.parse(DocumentBuilder.java:121)
+	at org.biojava.nbio.structure.rcsb.ReadUtils.getNodes(ReadUtils.java:83)
+	... 27 more
+
+[Fatal Error] :1:50: White spaces are required between publicId and systemId.
+Jun 28, 2020 12:17:57 AM org.biojava.nbio.structure.rcsb.RCSBLigandsFactory getFromHeteroAtomIds
+WARNING: Couldn't parse XML
+java.io.IOException: org.xml.sax.SAXParseException; lineNumber: 1; columnNumber: 50; White spaces are required between publicId and systemId.
+	at org.biojava.nbio.structure.rcsb.ReadUtils.getNodes(ReadUtils.java:86)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactory.getFromHeteroAtomIds(RCSBLigandsFactory.java:93)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactory.getFromHeteroAtomIds(RCSBLigandsFactory.java:159)
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromHeteroAtomIdUrl(RCSBLigandsFactoryTest.java:117)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.Tests run: 5, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 1.032 sec <<< FAILURE! - in org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest
+testFromHeteroAtomIdsUrl(org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest)  Time elapsed: 0.561 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromHeteroAtomIdsUrl(RCSBLigandsFactoryTest.java:110)
+
+testFromPdbIdsUrl(org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest)  Time elapsed: 0.122 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromPdbIdsUrl(RCSBLigandsFactoryTest.java:68)
+
+testFromHeteroAtomIdUrl(org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest)  Time elapsed: 0.126 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromHeteroAtomIdUrl(RCSBLigandsFactoryTest.java:118)
+
+testFromPdbIdUrl(org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest)  Time elapsed: 0.13 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.rcsb.RCSBLigandsFactoryTest.testFromPdbIdUrl(RCSBLigandsFactoryTest.java:57)
+
+Running org.biojava.nbio.structure.rcsb.RCSBDescriptionFactoryTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.555 sec - in org.biojava.nbio.structure.rcsb.RCSBDescriptionFactoryTest
+Running org.biojava.nbio.structure.HetatomImplTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.781 sec - in org.biojava.nbio.structure.HetatomImplTest
+Running org.biojava.nbio.structure.TestExperimentalTechniques
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 7.217 sec <<< FAILURE! - in org.biojava.nbio.structure.TestExperimentalTechniques
+test4LNC(org.biojava.nbio.structure.TestExperimentalTechniques)  Time elapsed: 1.273 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<2> but was:<1>
+	at org.biojava.nbio.structure.TestExperimentalTechniques.test4LNC(TestExperimentalTechniques.java:49)
+
+Running org.biojava.nbio.structure.TestLoadStructureFromURL
+making dir with space:/tmp/TEST DIR
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.97 sec - in org.biojava.nbio.structure.TestLoadStructureFromURL
+Running org.biojava.nbio.structure.Test2JA5
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.292 sec - in org.biojava.nbio.structure.Test2JA5
+Running org.biojava.nbio.structure.TestCloning
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.756 sec - in org.biojava.nbio.structure.TestCloning
+Running org.biojava.nbio.structure.PdbFileFormat30Test
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.472 sec - in org.biojava.nbio.structure.PdbFileFormat30Test
+Running org.biojava.nbio.structure.TestVeryLongFileName
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.696 sec - in org.biojava.nbio.structure.TestVeryLongFileName
+Running org.biojava.nbio.structure.SourceCompoundTest
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.265 sec - in org.biojava.nbio.structure.SourceCompoundTest
+Running org.biojava.nbio.structure.TestNucleotides
+Chain asymId:B authId:C
+RNA (5'-R(P*UP*AP*UP*CP*UP*C)-3')
+total SEQRES length: 6 total ATOM length:6 residues 
+
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.643 sec - in org.biojava.nbio.structure.TestNucleotides
+Running org.biojava.nbio.structure.cluster.TestSubunitExtractor
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.359 sec - in org.biojava.nbio.structure.cluster.TestSubunitExtractor
+Running org.biojava.nbio.structure.cluster.TestSubunitCluster
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.733 sec - in org.biojava.nbio.structure.cluster.TestSubunitCluster
+Running org.biojava.nbio.structure.io.mmtf.TestMmtfPerformance
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.524 sec - in org.biojava.nbio.structure.io.mmtf.TestMmtfPerformance
+Running org.biojava.nbio.structure.io.mmtf.TestMmtfRoundTrip
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.093 sec - in org.biojava.nbio.structure.io.mmtf.TestMmtfRoundTrip
+Running org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.396 sec <<< FAILURE! - in org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader
+compareMmcif(org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.io.mmtf.TestMmtfStructureReader.compareMmcif(TestMmtfStructureReader.java:54)
+
+Running org.biojava.nbio.structure.io.mmtf.TestBondFinding
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.503 sec - in org.biojava.nbio.structure.io.mmtf.TestBondFinding
+Running org.biojava.nbio.structure.io.mmtf.TestMmtfUtils
+Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.418 sec - in org.biojava.nbio.structure.io.mmtf.TestMmtfUtils
+Running org.biojava.nbio.structure.io.mmtf.TestMmtfStructureWriter
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.176 sec - in org.biojava.nbio.structure.io.mmtf.TestMmtfStructureWriter
+Running org.biojava.nbio.structure.io.TestMmCIFSpecialCases
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.729 sec - in org.biojava.nbio.structure.io.TestMmCIFSpecialCases
+Running org.biojava.nbio.structure.io.TestParseOnAsymId
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.846 sec - in org.biojava.nbio.structure.io.TestParseOnAsymId
+Running org.biojava.nbio.structure.io.TestDBRefParsing
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.774 sec - in org.biojava.nbio.structure.io.TestDBRefParsing
+Running org.biojava.nbio.structure.io.TestNonDepositedFiles
+Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4 sec - in org.biojava.nbio.structure.io.TestNonDepositedFiles
+Running org.biojava.nbio.structure.io.TestParseMmCIFLigands
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.991 sec - in org.biojava.nbio.structure.io.TestParseMmCIFLigands
+Running org.biojava.nbio.structure.io.TestMMCIFWriting
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.087 sec - in org.biojava.nbio.structure.io.TestMMCIFWriting
+Running org.biojava.nbio.structure.io.TestParseMmCIFFeatures
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.68 sec - in org.biojava.nbio.structure.io.TestParseMmCIFFeatures
+Running org.biojava.nbio.structure.io.TestHardBioUnits
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.039 sec - in org.biojava.nbio.structure.io.TestHardBioUnits
+Running org.biojava.nbio.structure.io.TestHeaderOnly
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.693 sec - in org.biojava.nbio.structure.io.TestHeaderOnly
+Running org.biojava.nbio.structure.io.TestSiftsParsing
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.692 sec - in org.biojava.nbio.structure.io.TestSiftsParsing
+Running org.biojava.nbio.structure.io.sifts.SiftsChainToUniprotMappingTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.563 sec - in org.biojava.nbio.structure.io.sifts.SiftsChainToUniprotMappingTest
+Running org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.862 sec <<< FAILURE! - in org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType
+testEntityId(org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType)  Time elapsed: 1.789 sec  <<< FAILURE!
+org.junit.internal.ArrayComparisonFailure: arrays first differed at element [1]; expected:<4-F[luorobenzamidoxime]> but was:<4-F[LUOROBENZAMIDOXIME]>
+	at org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType.testEntityId(TestEntityNameAndType.java:77)
+Caused by: org.junit.ComparisonFailure: expected:<4-F[luorobenzamidoxime]> but was:<4-F[LUOROBENZAMIDOXIME]>
+	at org.biojava.nbio.structure.io.mmcif.TestEntityNameAndType.testEntityId(TestEntityNameAndType.java:77)
+
+Running org.biojava.nbio.structure.io.mmcif.TestParseHeader
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.793 sec - in org.biojava.nbio.structure.io.mmcif.TestParseHeader
+Running org.biojava.nbio.structure.io.mmcif.TestParseInternalChainId
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 3.103 sec <<< FAILURE! - in org.biojava.nbio.structure.io.mmcif.TestParseInternalChainId
+test2I13(org.biojava.nbio.structure.io.mmcif.TestParseInternalChainId)  Time elapsed: 3.028 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.biojava.nbio.structure.io.mmcif.TestParseInternalChainId.test2I13(TestParseInternalChainId.java:77)
+
+Running org.biojava.nbio.structure.io.mmcif.TestChemCompProvider
+Using PDB_DIR=/tmp as temporary file directory
+Using PDB_DIR=/tmp as temporary file directory
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.811 sec - in org.biojava.nbio.structure.io.mmcif.TestChemCompProvider
+Running org.biojava.nbio.structure.io.TestURLBasedFileParsing
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.556 sec - in org.biojava.nbio.structure.io.TestURLBasedFileParsing
+Running org.biojava.nbio.structure.io.TestShortLines
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.691 sec - in org.biojava.nbio.structure.io.TestShortLines
+Running org.biojava.nbio.structure.io.TestDifficultMmCIFFiles
+Chain asymId:A authId:E
+BETA-TRYPSIN
+total SEQRES length: 223 total ATOM length:223 residues 
+
+Tests run: 7, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 12.28 sec <<< FAILURE! - in org.biojava.nbio.structure.io.TestDifficultMmCIFFiles
+test2BI6(org.biojava.nbio.structure.io.TestDifficultMmCIFFiles)  Time elapsed: 1.212 sec  <<< ERROR!
+java.lang.NullPointerException
+	at org.biojava.nbio.structure.io.TestDifficultMmCIFFiles.test2BI6(TestDifficultMmCIFFiles.java:120)
+
+Running org.biojava.nbio.structure.io.TestTitleParsing
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.292 sec <<< FAILURE! - in org.biojava.nbio.structure.io.TestTitleParsing
+test2W6E(org.biojava.nbio.structure.io.TestTitleParsing)  Time elapsed: 6.219 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<...trolled dehydration:[ ]hydration state 1.> but was:<...trolled dehydration:[]hydration state 1.>
+	at org.biojava.nbio.structure.io.TestTitleParsing.test2W6E(TestTitleParsing.java:58)
+
+Running org.biojava.nbio.structure.io.StructureSequenceMatcherTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.072 sec - in org.biojava.nbio.structure.io.StructureSequenceMatcherTest
+Running org.biojava.nbio.structure.io.FastaAFPChainConverterTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.725 sec - in org.biojava.nbio.structure.io.FastaAFPChainConverterTest
+Running org.biojava.nbio.structure.io.TestMMcifOrganismParsing
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.662 sec - in org.biojava.nbio.structure.io.TestMMcifOrganismParsing
+Running org.biojava.nbio.structure.io.TestQuaternaryStructureProviders
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 8.338 sec <<< FAILURE! - in org.biojava.nbio.structure.io.TestQuaternaryStructureProviders
+test5LDH(org.biojava.nbio.structure.io.TestQuaternaryStructureProviders)  Time elapsed: 1.656 sec  <<< FAILURE!
+java.lang.AssertionError: Bioassembly 3 for PDB id 5LDH should fail with a StructureException!
+	at org.biojava.nbio.structure.io.TestQuaternaryStructureProviders.test5LDH(TestQuaternaryStructureProviders.java:70)
+
+testGetNrBioAssemblies5LDH(org.biojava.nbio.structure.io.TestQuaternaryStructureProviders)  Time elapsed: 0.322 sec  <<< FAILURE!
+java.lang.AssertionError: There should be only 2 bioassemblies for 5LDH, see github issue #230 expected:<2> but was:<4>
+	at org.biojava.nbio.structure.io.TestQuaternaryStructureProviders.testGetNrBioAssemblies5LDH(TestQuaternaryStructureProviders.java:105)
+
+Running org.biojava.nbio.structure.io.TestWriteLargeCoordinatePDB
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.647 sec - in org.biojava.nbio.structure.io.TestWriteLargeCoordinatePDB
+Running org.biojava.nbio.structure.geometry.TestUnitQuaternions
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.545 sec - in org.biojava.nbio.structure.geometry.TestUnitQuaternions
+Running org.biojava.nbio.structure.geometry.TestSuperPosition
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.328 sec - in org.biojava.nbio.structure.geometry.TestSuperPosition
+Running org.biojava.nbio.structure.geometry.TestSuperPositionQCP
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.702 sec - in org.biojava.nbio.structure.geometry.TestSuperPositionQCP
+Running org.biojava.nbio.structure.TestCompoundResIndexMapping
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.308 sec - in org.biojava.nbio.structure.TestCompoundResIndexMapping
+Running org.biojava.nbio.structure.validation.TestValidationReportParsing
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.119 sec - in org.biojava.nbio.structure.validation.TestValidationReportParsing
+Running org.biojava.nbio.structure.PDBStatusTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.488 sec - in org.biojava.nbio.structure.PDBStatusTest
+Running org.biojava.nbio.structure.TestParsingCalcium
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.797 sec - in org.biojava.nbio.structure.TestParsingCalcium
+Running org.biojava.nbio.structure.Test4hhb
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.485 sec - in org.biojava.nbio.structure.Test4hhb
+Running org.biojava.nbio.structure.TestChargeAdder
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.159 sec - in org.biojava.nbio.structure.TestChargeAdder
+Running org.biojava.nbio.structure.symmetry.internal.TestSymmetryAxes
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.115 sec - in org.biojava.nbio.structure.symmetry.internal.TestSymmetryAxes
+Running org.biojava.nbio.structure.symmetry.internal.TestSingleRefiner
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.728 sec - in org.biojava.nbio.structure.symmetry.internal.TestSingleRefiner
+Running org.biojava.nbio.structure.symmetry.internal.TestCeSymm
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.247 sec - in org.biojava.nbio.structure.symmetry.internal.TestCeSymm
+Running org.biojava.nbio.structure.symmetry.internal.TestSequenceFunctionOrderDetector
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.176 sec - in org.biojava.nbio.structure.symmetry.internal.TestSequenceFunctionOrderDetector
+Running org.biojava.nbio.structure.symmetry.utils.TestSymmetryTools
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.732 sec - in org.biojava.nbio.structure.symmetry.utils.TestSymmetryTools
+Running org.biojava.nbio.structure.TestAtomCache
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.125 sec - in org.biojava.nbio.structure.TestAtomCache
+
+Results :
+
+Failed tests: 
+  TestExperimentalTechniques.test4LNC:49 expected:<2> but was:<1>
+  AtomCacheTest.testGetStructureForChainlessDomains:153
+  TestQuaternaryStructureProviders.test5LDH:70 Bioassembly 3 for PDB id 5LDH should fail with a StructureException!
+  TestQuaternaryStructureProviders.testGetNrBioAssemblies5LDH:105 There should be only 2 bioassemblies for 5LDH, see github issue #230 expected:<2> but was:<4>
+  TestTitleParsing.test2W6E:58 expected:<...trolled dehydration:[ ]hydration state 1.> but was:<...trolled dehydration:[]hydration state 1.>
+  TestEntityNameAndType.testEntityId:77 arrays first differed at element [1]; expected:<4-F[luorobenzamidoxime]> but was:<4-F[LUOROBENZAMIDOXIME]>
+  TestParseInternalChainId.test2I13:77
+Tests in error: 
+  TestBond.testStructConnModels:60 NullPointer
+  TestDifficultMmCIFFiles.test2BI6:120 NullPointer
+  TestMmtfStructureReader.compareMmcif:54 NullPointer
+  RCSBLigandsFactoryTest.testFromHeteroAtomIdUrl:118 NullPointer
+  RCSBLigandsFactoryTest.testFromHeteroAtomIdsUrl:110 NullPointer
+  RCSBLigandsFactoryTest.testFromPdbIdUrl:57 NullPointer
+  RCSBLigandsFactoryTest.testFromPdbIdsUrl:68 NullPointer
+
+Tests run: 324, Failures: 7, Errors: 7, Skipped: 1
+
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] biojava ............................................ SUCCESS [  0.503 s]
+[INFO] biojava-core ....................................... SUCCESS [01:19 min]
+[INFO] biojava-alignment .................................. SUCCESS [ 27.276 s]
+[INFO] biojava-structure .................................. FAILURE [07:46 min]
+[INFO] biojava-structure-gui .............................. SKIPPED
+[INFO] biojava-sequencing ................................. SKIPPED
+[INFO] biojava-genome ..................................... SKIPPED
+[INFO] biojava-modfinder .................................. SKIPPED
+[INFO] biojava-ws ......................................... SKIPPED
+[INFO] biojava-protein-disorder ........................... SKIPPED
+[INFO] biojava-aa-prop .................................... SKIPPED
+[INFO] biojava-survival ................................... SKIPPED
+[INFO] biojava-ontology ................................... SKIPPED
+[INFO] biojava-integrationtest ............................ SKIPPED
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 09:35 min
+[INFO] Finished at: 2020-06-28T00:22:34+02:00
+[INFO] Final Memory: 21M/67M
+[INFO] ------------------------------------------------------------------------
+[ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project biojava-structure: There are test failures.
+[ERROR] 
+[ERROR] Please refer to /pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-biojava-biojava-250779242-20170706-162512_bugonly-firstCommit/biojava-structure/target/surefire-reports for the individual test results.
+[ERROR] -> [Help 1]
+org.apache.maven.lifecycle.LifecycleExecutionException: Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.19.1:test (default-test) on project biojava-structure: There are test failures.
+
+Please refer to /pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-biojava-biojava-250779242-20170706-162512_bugonly-firstCommit/biojava-structure/target/surefire-reports for the individual test results.
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:212)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:153)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:145)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:116)
+	at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject(LifecycleModuleBuilder.java:80)
+	at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build(SingleThreadedBuilder.java:51)
+	at org.apache.maven.lifecycle.internal.LifecycleStarter.execute(LifecycleStarter.java:128)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:307)
+	at org.apache.maven.DefaultMaven.doExecute(DefaultMaven.java:193)
+	at org.apache.maven.DefaultMaven.execute(DefaultMaven.java:106)
+	at org.apache.maven.cli.MavenCli.execute(MavenCli.java:863)
+	at org.apache.maven.cli.MavenCli.doMain(MavenCli.java:288)
+	at org.apache.maven.cli.MavenCli.main(MavenCli.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced(Launcher.java:289)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.launch(Launcher.java:229)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode(Launcher.java:415)
+	at org.codehaus.plexus.classworlds.launcher.Launcher.main(Launcher.java:356)
+Caused by: org.apache.maven.plugin.MojoFailureException: There are test failures.
+
+Please refer to /pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-biojava-biojava-250779242-20170706-162512_bugonly-firstCommit/biojava-structure/target/surefire-reports for the individual test results.
+	at org.apache.maven.plugin.surefire.SurefireHelper.reportExecution(SurefireHelper.java:91)
+	at org.apache.maven.plugin.surefire.SurefirePlugin.handleSummary(SurefirePlugin.java:320)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.executeAfterPreconditionsChecked(AbstractSurefireMojo.java:892)
+	at org.apache.maven.plugin.surefire.AbstractSurefireMojo.execute(AbstractSurefireMojo.java:755)
+	at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo(DefaultBuildPluginManager.java:134)
+	at org.apache.maven.lifecycle.internal.MojoExecutor.execute(MojoExecutor.java:207)
+	... 20 more
+[ERROR] 
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] 
+[ERROR] After correcting the problems, you can resume the build with the command
+[ERROR]   mvn <goals> -rf :biojava-structure
+in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:sample)
+00:20:16 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:20:21 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:20:22 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_auth_seq_id in org.biojava.nbio.structure.io.mmcif.model.AtomSite found in file, but no corresponding field could be found in model class (value:3)
+00:20:22 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_auth_comp_id in org.biojava.nbio.structure.io.mmcif.model.AtomSite found in file, but no corresponding field could be found in model class (value:SER)
+00:20:22 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_auth_asym_id in org.biojava.nbio.structure.io.mmcif.model.AtomSite found in file, but no corresponding field could be found in model class (value:A)
+00:20:22 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_auth_atom_name in org.biojava.nbio.structure.io.mmcif.model.AtomSite found in file, but no corresponding field could be found in model class (value:N)
+00:20:25 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifConsumer - No _struct_asym category in file, no SEQRES groups will be added.
+00:20:27 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:20:27 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,B in same Compound, although they have misaligned residue numbers
+00:20:29 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:20:39 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_src_id in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:1)
+00:20:39 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_alt_source_flag in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:sample)
+00:20:41 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifConsumer - No _struct_asym category in file, no SEQRES groups will be added.
+00:20:42 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:20:49 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+Note: the following 10 warnings about missing residues are expected.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 38 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 39 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 40 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 41 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 42 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 43 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 44 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 45 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 46 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:51 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain A residue 47 in the Structure 2PTC has no corresponding amino acid in the sequence.
+00:20:53 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:20:59 [main] WARN  org.biojava.nbio.structure.io.StructureSequenceMatcher - Chain C residue 251 in the Structure 1QDM has no corresponding amino acid in the sequence.
+00:21:02 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:04 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_src_id in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:1)
+00:21:04 [main] WARN  org.biojava.nbio.structure.io.mmcif.SimpleMMcifParser - Trying to set field pdbx_alt_source_flag in org.biojava.nbio.structure.io.mmcif.model.EntitySrcSyn found in file, but no corresponding field could be found in model class (value:sample)
+00:21:07 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:16 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:21 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:28 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:29 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,B in same Compound, although they have misaligned residue numbers
+00:21:29 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,C in same Compound, although they have misaligned residue numbers
+00:21:29 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,D in same Compound, although they have misaligned residue numbers
+00:21:29 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,E in same Compound, although they have misaligned residue numbers
+00:21:29 [main] WARN  org.biojava.nbio.structure.io.EntityFinder - Including 100% identical chains A,F in same Compound, although they have misaligned residue numbers
+00:21:38 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:42 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:45 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom O01 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C02 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C03 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C04 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C05 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C06 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom N07 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C08 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom O09 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C10 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C11 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C12 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C13 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C14 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C15 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C16 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C17 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom N18 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C19 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C20 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C21 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom N22 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C23 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C24 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom N25 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C26 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C27 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C28 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom N29 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C30 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C31 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom C32 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom N33 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H041 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H051 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H111 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H121 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H131 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H132 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H141 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H142 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H151 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H152 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H161 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H162 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H171 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H172 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H191 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H192 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H201 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H211 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H212 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H231 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H232 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H241 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H242 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H261 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H262 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H271 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H272 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H301 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H311 in group ZYH
+00:21:49 [main] WARN  org.biojava.nbio.structure.io.ChargeAdder - ? charge on atom H321 in group ZYH
+00:21:52 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:22:08 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:22:25 [main] WARN  org.biojava.nbio.structure.align.util.UserConfiguration - Could not read dir from system property PDB_DIR or environment variable PDB_DIR, using system's temp directory /tmp
+00:22:30 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code 4hhb:A
+00:22:30 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - No chain found for B. Interpretting it as an index, using chain B instead
+00:22:30 [main] WARN  org.biojava.nbio.structure.SubstructureIdentifier - Unrecognized PDB code 4hhb(A:10-20,A:30-40)
