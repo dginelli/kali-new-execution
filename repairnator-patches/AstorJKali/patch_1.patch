@@ -1,0 +1,11 @@
+--- /src/main/java/nl/mpi/tg/eg/frinex/adaptivevocabularyassessment/client/RandomIndexing.java
++++ /src/main/java/nl/mpi/tg/eg/frinex/adaptivevocabularyassessment/client/RandomIndexing.java
+@@ -85,7 +85,6 @@
+ 			offsetBuffer.remove(randOffset);
+ 			n--;
+ 		}
+-		java.util.Collections.sort(retVal);
+ 		this.correctLastPosition(retVal);
+ 		return retVal;
+ 	}
+
