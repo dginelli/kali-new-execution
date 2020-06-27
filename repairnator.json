@@ -1,31 +1,119 @@
 {
-  "totalNumberSkippingTests": 2,
-  "bugType": "only_fail",
-  "totalNumberErroringTests": 0,
-  "repo": "chtyim/twill",
-  "bugCommit": "https://github.com/chtyim/twill/compare/d2628cf1cd15...09eb20a90ee0",
-  "failingModule": "/root/workspace/chtyim/twill/356031025/twill-yarn",
-  "hostname": "spirals-vortex.lille.inria.fr",
-  "totalNumberFailingTests": 1,
-  "error-types": [
-    "java.lang.AssertionError:"
-  ],
-  "totalNumberRunningTests": 124,
-  "failing-test-cases": [
-    {
-      "className": "org.apache.twill.filesystem.LocalLocationTest",
-      "failingMethods": [
-        "org.apache.twill.filesystem.LocalLocationTest#testDirPermissions"
-      ],
-      "erroringMethods": [],
+  "builds": {},
+  "reproductionBuggyBuild": {
+    "reproductionDateBeginning": "Jun 27, 2020 6:10:22 PM",
+    "reproductionDateEnd": "Jun 27, 2020 6:41:42 PM",
+    "machineInfo": {
+      "numberCPU": 1,
+      "freeMemory": 69968584,
+      "totalMemory": 132620288
+    },
+    "totalDuration": 1876,
+    "processDurations": {
+      "cloning": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "building": {
+        "nbSteps": 3,
+        "totalDuration": 0,
+        "stepNames": [
+          "ComputeSourceDir",
+          "ComputeTestDir",
+          "CheckoutPatchedBuild"
+        ],
+        "stepDurations": [
+          0,
+          0,
+          0
+        ]
+      },
+      "testing": {
+        "nbSteps": 0,
+        "totalDuration": 0,
+        "stepNames": [],
+        "stepDurations": []
+      },
+      "fixing": {
+        "nbSteps": 1,
+        "totalDuration": 1407,
+        "stepNames": [
+          "AstorJKali"
+        ],
+        "stepDurations": [
+          1407
+        ]
+      }
+    },
+    "projectRootPomPath": "/proj/nobackup/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-chtyim-twill-356031025-20180320-212226-firstCommit/pom.xml"
+  },
+  "repository": {
+    "githubId": 0,
+    "isFork": false,
+    "original": {
+      "name": "",
+      "githubId": 0,
+      "url": ""
+    },
+    "isPullRequest": false,
+    "pullRequestId": 0
+  },
+  "patchDiff": {
+    "files": {
+      "numberAdded": 0,
+      "numberChanged": 0,
+      "numberDeleted": 0
+    },
+    "lines": {
+      "numberAdded": 0,
+      "numberDeleted": 0
+    }
+  },
+  "commits": {},
+  "tests": {
+    "failingModule": "/pfs/proj/nobackup/fs/projnb01/snic2020-10-10/dginelli/repairnator-workspace/repairnator-repairnator-experiments-chtyim-twill-356031025-20180320-212226-firstCommit/twill-zookeeper",
+    "overallMetrics": {
+      "numberRunning": 30,
+      "numberPassing": 29,
+      "numberFailing": 0,
+      "numberErroring": 1,
+      "numberSkipping": 0,
       "failures": [
         {
-          "failureName": "java.lang.AssertionError:",
-          "isError": false
+          "failureName": "java.lang.Exception",
+          "isError": true,
+          "occurrences": 1
         }
-      ],
-      "nbFailures": 1,
-      "nbErrors": 0
-    }
-  ]
+      ]
+    },
+    "failingClasses": [
+      {
+        "testClass": "org.apache.twill.zookeeper.ZKClientTest",
+        "numberRunning": 10,
+        "numberPassing": 9,
+        "numberFailing": 0,
+        "numberErroring": 1,
+        "numberSkipping": 0
+      }
+    ],
+    "failureDetails": [
+      {
+        "testClass": "org.apache.twill.zookeeper.ZKClientTest",
+        "testMethod": "testDeadlock",
+        "failureName": "java.lang.Exception",
+        "detail": "test timed out after 120000 milliseconds",
+        "isError": true
+      }
+    ]
+  },
+  "projectMetrics": {
+    "numberModules": 11,
+    "numberPlugins": 0,
+    "numberSourceFiles": 234,
+    "numberTestFiles": 58,
+    "numberLibrariesFailingModule": 12,
+    "numberLines": 0
+  }
 }
